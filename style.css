@@ -58,9 +58,16 @@ ul > input {
     height: 2em;
     border-radius: 8px;
     margin: 0 20px 0 20px;
-    border: ;
+    
 } 
 
 ul > input:hover {
-   border: none;
+   
 } 
+
+li > a:hover {
+    box-shadow: 10px 30px black;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
