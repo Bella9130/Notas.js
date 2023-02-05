@@ -33,6 +33,7 @@ ul {
     justify-content: space-between;
 }
 
+
 ul > img {
     width:40px;
     height: 40px;
@@ -49,4 +50,17 @@ ul > li {
 li > a {
     text-decoration: none;
     color: aliceblue;
+
 }
+
+ul > input {
+    width: 30vw;
+    height: 2em;
+    border-radius: 8px;
+    margin: 0 20px 0 20px;
+    border: ;
+} 
+
+ul > input:hover {
+   border: none;
+} 
