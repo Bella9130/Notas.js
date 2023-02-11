@@ -25,6 +25,7 @@ nav {
     grid-template-columns: 1fr 1fr auto;
     width: auto;
     height: 90px;
+    position: absolute;
 }
 
 ul {
