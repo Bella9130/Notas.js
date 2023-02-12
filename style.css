@@ -48,6 +48,7 @@ ul > li {
     list-style: none;
     text-decoration: none;
     margin: 0 30px 0 10px;
+   
 }
 
 li > a {
@@ -72,4 +73,13 @@ ul > input:hover {
    border: 3px solid var(--withe);
    padding:0 ;
     
+}
+
+.main_body {
+    
+}
+
+.main_body > h1{
+    position: relative;
+    margin: 30px 0 0 0;
 }
