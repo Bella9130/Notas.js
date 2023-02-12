@@ -17,3 +17,22 @@ function imprimirElemto (nom) {
         console.log(nom[i])
     }
 }
+
+Object.values(nom)
+
+
+const tiposDeSuscripciones = {
+    free: "solo uno",
+    basic: "solo dos",
+    expert: "solo por una anño", 
+    expertduo: 'igual pero con dos'
+}
+
+function suscripciones (suscripciones) {
+    if (suscripciones[tiposDeSuscripciones]) {
+        console.log(suscripciones[tiposDeSuscripciones])
+        return;
+    }
+    console.warn("no esxiste")
+}
+ 
