@@ -59,12 +59,12 @@ productList.push({
 productList.push({
     name:"book-nomar",
     price:"200",
-    imagen:"./imagenes/Mi familia y Yo (1).png"
+    imagen:'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/329157751_3297921150524200_5942539807855017470_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Xr9yzhZGdREAX-eB1M8&_nc_ht=scontent.fgua3-3.fna&oh=00_AfC8qSit5k1goiYv65IYZoHPTatA0roUht0BaC0GGM-U9Q&oe=63F78289'
 });
 productList.push({
     name:"book nose",
     price:"200",
-    imagen:"./imagenes/Mi familia y Yo (1).png"
+    imagen:"https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/325334296_664836478770159_6939989713696567138_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=wQ6wN89sfeEAX_dy97_&_nc_ht=scontent.fgua3-3.fna&oh=00_AfBMTgX0zgF3x2xgG_KcnBci1SNQzmIxlA7phwUKKQecqA&oe=63F71882"
 });
 
 function diferentProducts(arr) {
@@ -109,3 +109,15 @@ function diferentProducts(arr) {
 }
 
 diferentProducts(productList)
+
+
+const detailList = [];
+detailList.push({
+    description:"Es un book y solo eso me se porque si a"
+})
+detailList.push({
+    description:"Es un cuenta y solo eso me se porque si a"
+})
+detailList.push({
+    description:"Es un otra spo y solo eso me se porque si a"
+})
