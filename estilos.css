@@ -766,6 +766,10 @@ body {
 
 /*Prod......section...........................................1*/
 
+.main-container {
+    padding: 0 9px 0 9px;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
@@ -831,5 +835,9 @@ body {
     color: var(--very-light-pink);
   }
 
+
+  .background-styles {
+    background-color: var(--white);
+  }
 
 

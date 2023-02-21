@@ -3,10 +3,11 @@ const menuDesktop = document.querySelector(".desktop-menu");
 const menuMobile  = document.querySelector(".menu-mobile");
 const imagen = document.querySelector(".imagen-1");
 const logoShowProduct = document.querySelector(".logo");
-const asideAproduct = document.querySelector(".conten-aside-2")
-const cardsContainer = document.querySelector (".cards-container")
-const asideContainerProduct = document.querySelector(".conteiner-aside-2")
-const laSalidaX = document.querySelector(".imagen-aside-1")
+const asideAproduct = document.querySelector(".conten-aside-2");
+const cardsContainer = document.querySelector (".cards-container");
+const asideContainerProduct = document.querySelector(".conteiner-aside-2");
+const laSalidaX = document.querySelector(".imagen-aside-1");
+const productAddCar = document.querySelector('.img-car')
 
 
 emailMenu.addEventListener("click", toggleMenu);
@@ -14,21 +15,24 @@ imagen.addEventListener("click", toggleMenuMobile);
 logoShowProduct.addEventListener("click", toggleAsideMenu);
 cardsContainer.addEventListener("click", toggleProductAside);
 laSalidaX.addEventListener("click", closeSalida)
+productAddCar.addEventListener('click', addProduct)
 
 
-
+// DesktopMenu
 function toggleMenu() {
     menuDesktop.classList.toggle("inactive");
     asideAproduct.classList.add("inactive");
     asideContainerProduct.classList.add("inactive");
 }
 
+// menuMobile
 function toggleMenuMobile() {
     menuMobile.classList.toggle("inactive");
     asideAproduct.classList.add("inactive");
     asideContainerProduct.classList.add("inactive")
 }
 
+// aside menu
 function toggleAsideMenu (){
     asideAproduct.classList.toggle("inactive");
     menuMobile.classList.add("inactive");
@@ -36,6 +40,7 @@ function toggleAsideMenu (){
     asideContainerProduct.classList.add("inactive");
 }
 
+//info Products
 function toggleProductAside() {
     asideContainerProduct.classList.remove("inactive");
     menuDesktop.classList.add("inactive");
@@ -43,10 +48,21 @@ function toggleProductAside() {
     menuMobile.classList.add("inactive")
 }
 
+// close menu
 function closeSalida() {
     asideContainerProduct.classList.toggle("inactive");
     menuDesktop.classList.add("inactive");
     asideAproduct.classList.add("inactive");
+}
+
+//buycar
+function openMenuAside() {
+    asideAproduct.classList.toggle("inactive");
+}
+
+//carAdd
+function addProduct() {
+    addProduct.classList.add('background-styles');
 }
 
 
@@ -108,16 +124,5 @@ function diferentProducts(arr) {
      }
 }
 
-diferentProducts(productList)
+diferentProducts(productList);
 
-
-const detailList = [];
-detailList.push({
-    description:"Es un book y solo eso me se porque si a"
-})
-detailList.push({
-    description:"Es un cuenta y solo eso me se porque si a"
-})
-detailList.push({
-    description:"Es un otra spo y solo eso me se porque si a"
-})
