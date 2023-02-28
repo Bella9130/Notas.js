@@ -167,7 +167,7 @@ differetnProductAside.push({
 
 function detailProductsAsideShow (arr) {
     for(Aside of Asides) {
-        
+         
     }
 }
  
