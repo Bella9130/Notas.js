@@ -10,7 +10,7 @@ const laSalidaX = document.querySelector(".imagen-aside-1");
 const productAddCar = document.querySelector('.img-car')
 
 
-emailMenu.addEventListener("click", toggleMenu);
+emailMenu.addEventListener("mouseover", toggleMenu);
 imagen.addEventListener("click", toggleMenuMobile);
 logoShowProduct.addEventListener("click", toggleAsideMenu);
 cardsContainer.addEventListener("click", toggleProductAside);

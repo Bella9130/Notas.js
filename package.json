@@ -14,5 +14,6 @@
     "css"
   ],
   "author": "Bella Salguero <salguero.cano.bellla@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module" 
 }
