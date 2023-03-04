@@ -14,7 +14,8 @@ const JuanJrs = new User ('JuanJr')
 console.log(JuanJrs.Aviso());
 
 //Clases 
-//INSTANCIA: para saber que son las clases necesitamos saber que es una insatansia: Una instancia es la accion de crear un objeto basado en una clase en particular. 
+//podemos crear distintos objetos con características específicas, permitiéndonos crear un código más eficiente
+//INSTANCIA: Una instancia es la accion de crear un objeto basado en una clase en particular. 
 //CONSTRUCTOR: Este es un metodo especial para crear o inicializar un objeto creado aparti de una clases 
 
 class user { //Un clase es para ordenar cuando tenemos varios elemntos del mismo esta es la sintaxis: 

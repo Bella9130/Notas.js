@@ -4,12 +4,10 @@ const fruis = () => {
         let frsd = ' frua'
         const sd = 'Fruta2'
     }
-    console.log(fruit1);
-    console.log(frsd);
-    console.log(sd);
+    console.log(fruis);
 }
 
-fruis()
+fruis();
 
 
 

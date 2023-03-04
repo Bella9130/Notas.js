@@ -45,7 +45,7 @@ EjPromesas()
 .then(Acceder => console.log(Acceder))
 .catch(AcessoFail => console.log(AcessoFail));
 
-
+//CATH:catch señala un bloque de instrucciones a intentar ( try ), y especifica una respuesta si se produce una excepción ( catch ).
 //** */.then() ** es un método de la promesa que retorna anotherFunction(), no es “algo llamado then” y si bien es una ‘palabra reservada’, decir que es una ‘palabra reservada’ no aporta nada, es un método, y por ser un método se “llama” o “ejecuta” y recibe parámetros, en este caso un callback*/ 
 
 
