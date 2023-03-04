@@ -1,3 +1,8 @@
+//Let, const y arrow function
+/*let: su alcance o scope es en bloque que no sale mas alla se puede reasiganr
+const: no se puede reenombrar su sccope es en bloque 
+var scope globalpuede ser redeclarada  */
+
 const fruis = () => {
     if(true) {
         var fruit1 = 'aple'
@@ -12,16 +17,13 @@ fruis();
 
 
 
-
-
-
 //Arrow Function
 
-function circulo (num)  {
+const circulo = (num) => {
     return num * num;
-}
+};
 
-const circulo = num => num * num;
+const circulos = num => num * num;
 
 let hellow = 'Hellosw';
 let todos = 'todos';
@@ -35,6 +37,11 @@ console.log(epic);
 
 let lorem = 'hola \n' + 'esto tambien';
 console.log(lorem); 
+
+
+
+
+
 
 
 
@@ -61,6 +68,11 @@ newUser('Linda', 'Cano ', 'AM!' );
 
     newUsuario();
     newUsuario('Linda', 'Salguero', 'AM' );
+
+
+
+
+
 
 
 
