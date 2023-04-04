@@ -1,12 +1,10 @@
-
-
 //PROMESAS 
 //Primeramente tenemos que ver que es un call-back, es una funcion que se pasa a otra función como un argumento que luego se llama dentro de la funcion externa para hacer una accion 
 //Una forma de trabajar con Asincronismo es algo que va a pasar hoy mañana o nunca esta es una forma mas amigable de trabajar con nuestro codigo Sin que se bloquee y poder seguir trabajando con el bloque de codigo adentro o que tenga una respuesta 
 
 const otraFuncion = () => {
     return new Promise((cualquierPalabraseUsa_RESOLVE_peroEJ, reject)=> { //Esto (()=> ) es una funcion anonima que puede ser representada con una arrow function //Importante promise es una palabra reservada 
-        //IMPORTANT: LOS VALORES A PONER SERAN RESOLVE Y REJECT 
+        //IMPORTANT: LOS VALORES A PONER SERAN RESOLVE Y REJECT PERO NO SON OBLIGATOTIO ES LO MAS COMÚN 
         if (true) {
            cualquierPalabraseUsa_RESOLVE_peroEJ('Hey!!');
         } else {
@@ -50,6 +48,20 @@ EjPromesas()
 
 
 
+let error = {primera: 'Una AÑo! Enjoy', segunda: 'DOS AÑOS! ENJOY' }
+
+const envioDerFormulario = () => {
+    return new Promise ((RESOLVE, REJECT) => {
+        if (false){
+            RESOLVE('enviado exitosamente')
+
+        }else
+            REJECT(error)
+
+    })
+}
 
 
-
+envioDerFormulario()
+.then(enviadoExitodamente => console.log(enviadoExitodamente))
+.catch(noEnviado => console.log(noEnviado))

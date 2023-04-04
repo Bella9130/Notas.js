@@ -1,18 +1,3 @@
-class User {
-    constructor (name) {
-        this.name = name;
-    }
-    avisoSpeak () {
-        return ('Hola Cuidado Bro aqui hay virus')
-    }
-    Aviso( ) {
-        return (`${this.name} ${this.avisoSpeak()}`)
-    }
-}
-
-const JuanJrs = new User ('JuanJr')
-console.log(JuanJrs.Aviso());
-
 //Clases 
 //podemos crear distintos objetos con características específicas, permitiéndonos crear un código más eficiente
 //INSTANCIA: Una instancia es la accion de crear un objeto basado en una clase en particular. 
@@ -67,7 +52,7 @@ class user { //Un clase es para ordenar cuando tenemos varios elemntos del mismo
          this.name = name;
      }
      avisoSpeak () {
-         return ('Hola Cuidado Bro aqui hay virus')
+         return ('BURRO, Cuidado Bro aqui hay virus')
      }
      avisoBabo () {
          return ('burro')
@@ -111,5 +96,21 @@ class user { //Un clase es para ordenar cuando tenemos varios elemntos del mismo
  console.log(yome.eLage);//que solo retorne esto
  console.log(yome.eLage = 20);//se le asigna nuevo valor por llamar a get y set
  //Al final nos da 15 20 porque el 15 fue asignado arriba con el nom
+
  
- 
+//JERCICIO1 dEL JUANJR
+
+class User {
+    constructor (name) {
+        this.name = name;
+    }
+    avisoSpeak () {
+        return ('Hola Cuidado Bro aqui hay virus')
+    }
+    Aviso( ) {
+        return (`${this.name} ${this.avisoSpeak()}`)
+    }
+}
+
+const JuanJrs = new User ('JuanJr')
+console.log(JuanJrs.Aviso());

@@ -2,7 +2,7 @@
 //es como funcion pero con * [function* name (array para poner en el llop si no como se hace reference)]
 function* iterates(array) {
     for (let value of array){ //{for (let nombre of iterable)}en el nombre se puede poner cualwuiera por es se inicia con let
-        //Yield: Es una palabra reservada que va a retornar cada uno de los valores segun sea el caso osea el nombre para que tantas cosas es mas moldeable que la return
+//Yield: Es una palabra reservada que va a retornar cada uno de los valores segun sea el caso osea el nombre para que tantas cosas es mas moldeable que la return
         yield value;
     }
 }

@@ -1,10 +1,10 @@
 :root {
-    --white: #ffffff;
-    --black: #adadad;
-    --dark: #010030;
+    --white: #000000;
+    --black: #3e3e3e;
+    --dark: #e7e7e7;
     --very-light-pink: #5a5a5a;
-    --text-input-field: #1c1c1c;
-    --hospital-green: #1f4730;
+    --text-input-field: #9f9f9f;
+    --hospital-green: #264a65;
     --text-shadow: 1px 1px 2px #807e94;
     --mm: 13px;
     --sm: 17px;
@@ -272,10 +272,19 @@ body {
     align-items: center;
 }
 
+/*---------- Centro ----------*/
+
 .contenedor-center {
     width: 40%;
     height: 100%;
     
+}
+
+#imagen__input-center {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index:1;
 }
 
 .contenedor-1 {
@@ -294,7 +303,9 @@ body {
     height: 20px;
     padding-left:10px ;
     border-radius: 10px;
-  
+    z-index: 2;
+    position: relative;
+    border: 3px solid var(--hospital-green);
 }
 
 .input-nav:hover{
@@ -302,6 +313,7 @@ body {
     width: 99%;
     height: 20px;
     border-radius: 10px; 
+    border: none;
     
   
 }
@@ -813,11 +825,6 @@ body {
   .product-info figure img {
     width: 35px;
     height: 35px;
-    background: var(--black);
-    padding: 3px;
-    align-items: center;
-    justify-items: center;
-    border-radius: 50px;
     cursor: pointer;
   }
 
@@ -836,8 +843,5 @@ body {
   }
 
 
-  .background-styles {
-    background-color: var(--white);
-  }
 
 

@@ -31,6 +31,12 @@ let todos = 'todos';
 let hw = hellow + ' ' + todos + '!!!s'; 
 console.log(hw);
 
+
+
+
+
+
+
 // Template literals 
 let epic = `${hellow} ${todos}!`;
 console.log(epic);
@@ -87,6 +93,12 @@ newUser('Linda', 'Cano ', 'AM!' );
     let [a, b ] = frutas;
     console.log(a, frutas[1]);
 
+
+
+
+
+
+    
     //objest destructuring 
     let userName = {
         user:'Consolo',
@@ -108,7 +120,7 @@ newUser('Linda', 'Cano ', 'AM!' );
      let person = {name:' Bella Salguero', age: 15 };
      let country = 'GU'
 
-     let data = { ...person, country};
+     let data = { ...person, country}; //no hace falta que pongamos todo sino solo los 3 puntitos
      console.log(data);
 
      //Rest
