@@ -37,7 +37,10 @@ otras.next(cualquier => console.log(cualquier.value));
 // otra.next().then(cualquier => console.log(cualquier.value));
 console.log('finally');
 
-
+/*call-back: es una funcion que se pasa a otra función como un argumento que luego se llama dentro
+de la funcion externa para hacer una accion Una forma de trabajar con Asincronismo es algo que va 
+a pasar hoy mañana o nunca esta es una forma mas amigable de trabajar con nuestro codigo Sin que 
+se bloquee y poder seguir trabajando con el bloque de codigo adentro o que tenga una respuesta  */
 
 
 

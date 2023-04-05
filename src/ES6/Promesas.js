@@ -48,7 +48,10 @@ EjPromesas()
 
 
 
-let error = {primera: 'Una AÑo! Enjoy', segunda: 'DOS AÑOS! ENJOY' }
+let error = {
+    primera: 'Una AÑo! Enjoy',
+    segunda: 'DOS AÑOS! ENJOY'
+ }
 
 const envioDerFormulario = () => {
     return new Promise ((RESOLVE, REJECT) => {
